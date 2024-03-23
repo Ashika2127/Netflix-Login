@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background: rgba(0, 0, 0, 0.5) url(./Netflix-Background.jpg);
+  background-blend-mode: darken;
+}
+.Logo img {
+  width: 12%;
+  margin-left: 30px;
+}
+.container {
+  position: absolute;
+  height: 590px;
+  width: 440px;
+  background-color: black;
+  margin-top: 1%;
+  margin-left: 36%;
+}
+.container h1 {
+  margin-top: 60px;
+  margin-left: 50px;
+  color: white;
+}
+input {
+  margin-left: 50px;
+  margin-top: 20px;
+  width: 320px;
+  height: 47px;
+  border-radius: 3px;
+  border: none;
+  background-color: #333;
+  font-size: 12px;
+}
+
+input::placeholder {
+  padding: 12px;
+  margin-left: 15px;
+  font-size: 16px;
+}
+
+input[type="checkbox"] {
+  width: 25px;
+  height: 15px;
+  border-radius: 5px;
+}
+
+label {
+  color: rgb(125, 119, 119);
+}
+
+#submit {
+  margin-left: 50px;
+  margin-top: 20px;
+  background-color: red;
+  width: 320px;
+  height: 45px;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.form a {
+  float: right;
+  margin-bottom: 24px;
+  margin-right: 64px;
+}
